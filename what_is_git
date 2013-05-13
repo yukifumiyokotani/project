@@ -1,2 +1,5 @@
 Class WhatIsGit
+	def show
+		put 'Git is difficultc'
+	end
 end
