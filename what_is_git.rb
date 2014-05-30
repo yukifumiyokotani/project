@@ -8,7 +8,7 @@ Class WhatIsGit
   end
 
   def help
-    # $B%3!<%I$OL$Dj(B
+    # 競合してしまった 
   end
 
 end
