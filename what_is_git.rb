@@ -4,11 +4,7 @@ Class WhatIsGit
   end
   
   def show
-    put 'Git is easy if you understand the basis'
-  end
-
-  def help
-    # 競合してしまった 
+    put 'if you understand the basis, Git is easy.'
   end
 
 end
