@@ -4,7 +4,14 @@ Class WhatIsGit
   end
   
   def show
-    put 'If you understand the basis, Git is easy.'
+    puts 'Do you understand the basis?[yes/no]'
+    input = gets.chomp.downcase
+    case input
+    when 'yes'
+      puts 'Git is easy.'
+    else
+      puts 'Git is difficult...'
+    end
   end
 
 end
