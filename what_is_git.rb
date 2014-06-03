@@ -1,6 +1,6 @@
 class WhatIsGit
   def about(lang = 'en')
-    puts 'http://#{lang}.wikipedia.org/wiki/Git'
+    puts "http://#{lang}.wikipedia.org/wiki/Git"
   end
   
   def show
