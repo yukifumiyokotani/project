@@ -3,10 +3,15 @@ $KCODE = 'u'
 
 #とりあえずテスト
 #よくわからない
+#追加してみた
 
 class WhatIsGit
-  def about(lang = 'en')
-    puts "http://#{lang}.wikipedia.org/wiki/Git"
+  def about(lang = nil)
+    if lang==nil then
+      lang = language
+    end
+    puts 
+    "http://#{lang}.wikipedia.org/wiki/Git"
   end
   
   def show
@@ -22,6 +27,9 @@ class WhatIsGit
     def input(message)
       puts message
       gets.chomp.tr('Ａ-Ｚａ-ｚ','A-Za-z').downcase
+    end
+
+    def language
     end
 
 end
