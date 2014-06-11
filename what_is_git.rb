@@ -1,9 +1,9 @@
 require 'jcode'
 $KCODE = 'u'
 
-#$B$H$j$"$($:%F%9%H(B
-#$B$h$/$o$+$i$J$$(B
-#$BDI2C$7$F$_$?(B
+#とりあえずテスト
+#よくわからない
+#追加してみた
 
 class WhatIsGit
   def about(lang = nil)
@@ -26,7 +26,10 @@ class WhatIsGit
   private
     def input(message)
       puts message
-      gets.chomp.tr('$B#A(B-$B#Z#a(B-$B#z(B','A-Za-z').downcase
+      gets.chomp.tr('Ａ-Ｚａ-ｚ','A-Za-z').downcase
+    end
+
+    def language
     end
 
     def language
