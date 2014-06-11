@@ -18,4 +18,8 @@ class WhatIsGit
       gets.chomp.downcase
     end
 
+    def langage
+      ENV['LANG'][0..1] || 'en'
+    end
+
 end
