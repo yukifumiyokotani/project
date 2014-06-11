@@ -1,9 +1,7 @@
 require 'jcode'
 $KCODE = 'u'
 
-#とりあえずテスト
-#よくわからない
-#追加してみた
+#再度stashのテスト
 
 class WhatIsGit
   def about(lang = nil)
